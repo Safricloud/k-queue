@@ -23,20 +23,20 @@ The `TaskQueue` offers fine-grained control over task processing by allowing con
 
 ```bash
 
-npm install task-queue
+npm install @safricloud/k-queue
 ```
 or
 
 ```bash
 
-yarn add task-queue
+yarn add @safricloud/k-queue
 ```
 Usage
 Import the Queue
 
 ```typescript
 
-import { TaskQueue } from 'task-queue';
+import { TaskQueue } from '@safricloud/k-queue';
 ```
 Create a TaskQueue Instance
 
