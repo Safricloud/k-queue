@@ -1,6 +1,5 @@
-# Sized-Queues
- Promise based queueing with concurency limits
-
+# k-queue
+ Event based queueing with concurency limits.
 
 The `TaskQueue` offers fine-grained control over task processing by allowing concurrent execution of tasks with a configurable limit. It also emits events on task status changes, so you can easily react to different stages of task execution.
 
