@@ -1,0 +1,35 @@
+{
+  "name": "k-queue",
+  "version": "0.0.1",
+  "description": "Event based queuing with concurrency limits",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test ./dist/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Safricloud/k-queue.git"
+  },
+  "keywords": [
+    "queue",
+    "concurrency",
+    "event",
+    "k-queue"
+  ],
+  "author": "Keaton Forrest <keaton@safricloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Safricloud/k-queue/issues"
+  },
+  "homepage": "https://github.com/Safricloud/k-queue#readme",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "typescript": "^5.6.2"
+  }
+}
