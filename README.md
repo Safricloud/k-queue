@@ -126,11 +126,6 @@ task1.on('failed', (error) => console.error(error));
 // Listen for queue-wide errors
 queue.on('error', (error) => console.error('Queue halted due to error:', error));
 ```
-Options
-
-    Concurrency: Control the number of concurrent tasks by passing the concurrency limit when instantiating the TaskQueue. For example, new TaskQueue(3) will ensure that only three tasks run at any given time.
-
-    Halt on Failure: When set to true, if a task fails, no further tasks will be processed, and the error will be emitted by the queue.
 
 Contributing
 
